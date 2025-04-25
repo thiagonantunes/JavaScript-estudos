@@ -31,5 +31,21 @@ const person = {
 
  const [first, second, ...rest] = numbers
 
- console.log(first, second, rest)
+
+const alunos = ['Joao', 'Juliana', 'Caio', 'Ana'];
+const medias = [10, 8, 7.5, 9];
+const lista = [alunos, medias];
+
+function test(aluno) {
+  if (lista[0].includes(aluno)) {
+    const [alunos, medias] = lista; //Desestruturação
+    const index = alunos.indexOf(aluno);
+    return `${alunos[index]}, ${medias[index]}`;
+  } else {
+    return 'não cadastrado';
+  }
+}
+
+
+console.log(first, second, rest)
 
