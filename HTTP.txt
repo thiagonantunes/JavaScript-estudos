@@ -1,0 +1,41 @@
+HTTP - HyperText Transfer Protocol -> protocolo de comunicação para transferir dados na web
+
+Cliente <---> Servidor
+
+Browser -> inspecionar -> aba Network - Headers e payload
+
+Camada que o HTTP roda - TCP - Transmission Control Protocol - Internet Protocol
+
+http://localhost:3000/recurso
+http -> protocolo
+localhost:3000 -> servidor e porta
+/ -> caminho (raiz)
+
+Portas padrão:
+HTTP -> 80
+HTTPS -> 443
+Livres para uso -> de 1023* até 65535
+
+DNS -> Sistema de nome de domínios
+google.com -> 142.251.128.14
+
+nslookup.io -> localizar IP de sites
+
+Telnet no Windows / painel de controle/programas/ativar desativar recursos/Telnet CLient
+
+postman.com/
+KEY -> Authorization
+VALUE -> Bearer + access token
+
+//Principais metodos do HTTP
+POST -> criar(create)
+GET -> ler(read)
+PUT -> atualizar(update)
+DELETE -> apagar(delete)
+
+CRUD
+
+código 200 -> Ok
+código 400 -> Erro (client)
+
+https://www.wireshark.org/

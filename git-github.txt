@@ -1,0 +1,21 @@
+Git - Controle de versão
+
+// git-school.github.io/visualizing-git
+
+git status
+git add .
+git commit -m "<mensagem>"
+git log
+git remote
+git push origin main
+git pull origin main
+git clone // entrar na pasta, abrir terminal git clone + URL
+git revert <id commit>
+git reset -- hard <id commit anterior>
+git commit --amend -m "<mensagem>" // alterar mensagem do commit
+git branch <nome> // ramificações do projeto    -d <nome branch> deletar    -m <renomear> 
+git checkout <nome branch> // modificar branch   -b cria novo branch
+git switch -c <nome branch> // criar novo branch e alterar para ele 
+git merge <nome branch> a partir da main// unir dois branch
+
+.gitignore
