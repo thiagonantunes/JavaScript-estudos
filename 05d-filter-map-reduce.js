@@ -43,5 +43,10 @@ const cart = [
 
 const totalCart = cart.reduce((acc, cur) => acc + cur.price, 0)
 
-console.log(totalCart);
+//Set -> cria um novo array, eliminado elementos repetidos
+const nomes = ["Ana", "Clara", "Maria", "Maria", "João", "João", "João"];
+
+// const nomesAtualizados = new Set(nomes);
+const listaNomesAtualizados = [...new Set(nomes)];
+
 

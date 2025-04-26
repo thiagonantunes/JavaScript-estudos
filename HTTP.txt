@@ -1,3 +1,5 @@
+HTTP - Entende a web por baixo dos panos
+
 HTTP - HyperText Transfer Protocol -> protocolo de comunicação para transferir dados na web
 
 Cliente <---> Servidor
@@ -39,3 +41,7 @@ código 200 -> Ok
 código 400 -> Erro (client)
 
 https://www.wireshark.org/
+
+openssl -> trabalha com criptogtafia
+
+http -> para mudar para https (tls)

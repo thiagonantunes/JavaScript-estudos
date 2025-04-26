@@ -26,6 +26,9 @@ const obj2 = {c: 3, d: 4}
 const obj3 = {...obj1, ...obj2};
 const obj4 = Object.assign({}, obj1, obj2)
 
+const notas = [7, 7, 8, 9];
+const novaListaNotas = [...notas, 10];
+
 const todos = [
   {id: 1, name: 'buy milk'},
   {id: 2, name: 'pickup kids from school'},

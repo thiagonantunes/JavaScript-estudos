@@ -36,8 +36,18 @@ console.log(x);
 
 // Challenge
 
-const x = 'developer' // Developer
+x = 'developer' // Developer
 
 s = x.substring(0, 1).toUpperCase() + x.substring(1)
 
 console.log(s);
+
+//string em numero 
+const number = +'42'
+
+// Inverter posição das variavéis
+const a = 1
+const b = 2
+[a, b] = [b, a]
+
+

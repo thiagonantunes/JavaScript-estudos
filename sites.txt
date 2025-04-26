@@ -1,0 +1,12 @@
+www.wellfound.com // site com vagas para trabalho remoto. 
+
+www.alura.com.br/artigos/escrever-bom-readme -> dicas para fazer o README
+
+www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github -> criar README no perfil GitHub
+
+ 
+Github 
+
+-free-programming-books 
+-webdev based learning 
+-awesome leetcode resources 
