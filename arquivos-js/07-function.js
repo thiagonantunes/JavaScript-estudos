@@ -4,7 +4,7 @@ function registerUser(user = 'Bot') {
 }
 
 // Rest Params
-function sum (...numbers) {
+function sum(...numbers) {
   let total = 0;
 
   for (let num of numbers) {
@@ -31,8 +31,8 @@ function first() {
     console.log(x + y); // It`s possible to access the parent variable x
   }
 
-  // console.log(y); // itá not possible to access const y
-  
+  // console.log(y); // it's not possible to access const y
+
   second()
 }
 
@@ -42,6 +42,6 @@ function addDolarSign(value) {
 }
 
 // Fucntion Expression
-const addPlusSing = function(value) {
+const addPlusSing = function (value) {
   return '$' + value
 };

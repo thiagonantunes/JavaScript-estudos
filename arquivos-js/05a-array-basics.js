@@ -20,3 +20,11 @@ fruits[3] = 'stramberry';
 
 fruits[fruits.length] = 'watermelon';
 
+
+// Condicionais
+
+//  && -> return the first falsy value or the last value
+//  || return the first truthy value or the last
+//  ?? Return the right side operand when the left is null or undefined 
+
+

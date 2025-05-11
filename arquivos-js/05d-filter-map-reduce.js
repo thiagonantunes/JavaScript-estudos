@@ -18,7 +18,7 @@ const companies = [
 // Get only retail companies
 const retailCompanies = companies.filter((company) => company.category === "Retail");
 
-// Ger companies that started in or after 1980 and ended in or before 2005
+// Get companies that started in or after 1980 and ended in or before 2005
 const companiesYear = companies.filter((company) => company.start >= 1980 && company.end <= 2005);
 
 // Map
@@ -43,10 +43,5 @@ const cart = [
 
 const totalCart = cart.reduce((acc, cur) => acc + cur.price, 0)
 
-//Set -> cria um novo array, eliminado elementos repetidos
-const nomes = ["Ana", "Clara", "Maria", "Maria", "João", "João", "João"];
-
-// const nomesAtualizados = new Set(nomes);
-const listaNomesAtualizados = [...new Set(nomes)];
 
 
